@@ -51,7 +51,7 @@ gaming-hub/
 ├── client/      # Frontend React app
 ├── server/      # Backend Express app
 └── .env         # Environment variables
-The project uses React for the frontend, Node.js and Express for the backend, and MongoDB for storing data. Make sure both the client and server are running for everything to work.
+The project uses React for the frontend, Node.js and Express for the backend. Make sure both the client and server are running for everything to work.
 
 API
 RAWG API powers the game data.
