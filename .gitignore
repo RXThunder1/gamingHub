@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Dependency directories
+/node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Build output
+/dist/
+/build/
+/client/build/
+/server/build/
+
+# Static files cache
+*.cache
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.lock
+*.pid
+*.seed
+*.bak
+
+# Ignoring specific API keys or sensitive data files
+api_key.json
+auth.json
+
+# Generated files
+package-lock.json
+yarn.lock
+
+# Backend specific
+/server/uploads/   # Example for any uploaded assets storage
+/server/logs/      # Custom log files
+/server/temp/      # Temporary files during processing
+
+# React specific
+client/.eslintcache
+client/.next
+client/coverage
+client/node_modules/
+
+# Ignoring public files that shouldn’t be versioned
+client/public/favicon.ico
+client/public/*.cache
